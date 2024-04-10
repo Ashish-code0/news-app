@@ -1,0 +1,40 @@
+.news-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00c91e;
+    margin: 0;
+    position: relative;
+}
+
+.news-heading{
+    margin-left: 5%;
+    color: white;
+}
+
+.search-input{
+    width: 40%;
+    height: 30px;
+    margin-right: 10%;
+    padding: 3px 10px;
+    border-radius: 10px;
+    border: 2px solid #00d820;
+    background-color: white;
+    color:  black;
+    font-size: 15px;
+    font-weight: 700;
+    
+}
+.search-icon{
+    position: absolute;
+    height: 20px;
+    bottom: 30px;
+    right: 12%;
+
+}
+
+.news-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

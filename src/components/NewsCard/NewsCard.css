@@ -1,0 +1,45 @@
+.news-card{
+    width: 400px;
+    background-color:#e4eeff;
+    border: 2px solid #00d820;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px;
+    position: relative;
+}
+
+.news-title{
+    font-size: 20px;
+}
+
+.news-img{
+    height: 200px;
+    width: 100%;
+}
+
+.news-post-info{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+.like-btn{
+    position: absolute;
+    bottom: 20px;
+    height: 25px;
+    cursor: pointer;
+}
+.read-more-btn{
+    background-color: #00c21d;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #e3ffe7;
+    margin-left: 72%;
+}
+.read-more-link{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
